@@ -2,6 +2,17 @@ var tempday=0,temphour=0,tempminute=0,tempsecond=0;
 
 function but()
 {
+var i1=document.getElementById("inday");
+var i2=document.getElementById("inhour");
+var i3=document.getElementById("inminutes");
+var i4=document.getElementById("inseconds");
+var i5=document.getElementById("inboost");
+if (!(i1.checkValidity() && i2.checkValidity() && i3.checkValidity() && i4.checkValidity() && i5.checkValidity()))
+{
+    alert("Пожалуйста, не оставляйте пустых полей.");
+}
+else
+{
 var b = parseFloat(document.getElementById("inboost").value);
 var d = parseFloat(document.getElementById("inday").value);
 var h = parseFloat(document.getElementById("inhour").value);
@@ -19,6 +30,7 @@ tempday=0,temphour=0,tempminute=0,tempsecond=0;
 dhms(ressec);
 document.getElementById("ftime").innerHTML = tempday+temphour+tempminute+tempsecond;
 }
+}
 
 function dhms(seconds) {
 seconds = Number(seconds);
@@ -31,5 +43,3 @@ temphour = h > 0 ? h + (h == 1 ? " час, " : " часа, ") : "";
 tempminute = m > 0 ? m + (m == 1 ? " минута, " : " минуты, ") : "";
 tempsecond = s > 0 ? s + (s == 1 ? " секунда" : " секунды") : "";
 }
-
-
