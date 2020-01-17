@@ -26,10 +26,10 @@ var d = Math.floor(seconds / (3600*24));
 var h = Math.floor(seconds % (3600*24) / 3600);
 var m = Math.floor(seconds % 3600 / 60);
 var s = Math.floor(seconds % 60);
-tempday = d > 0 ? d + (d == 1 ? " day, " : " days, ") : "";
-temphour = h > 0 ? h + (h == 1 ? " hour, " : " hours, ") : "";
-tempminute = m > 0 ? m + (m == 1 ? " minute, " : " minutes, ") : "";
-tempsecond = s > 0 ? s + (s == 1 ? " second" : " seconds") : "";
+tempday = d > 0 ? d + (d == 1 ? " день, " : " дней, ") : "";
+temphour = h > 0 ? h + (h == 1 ? " час, " : " часа, ") : "";
+tempminute = m > 0 ? m + (m == 1 ? " минута, " : " минуты, ") : "";
+tempsecond = s > 0 ? s + (s == 1 ? " секунда" : " секунды") : "";
 }
 
 
