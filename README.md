@@ -4,7 +4,7 @@
 Это позволит вам рассчитать конечное время, необходимое для выполнения задачи с определенным процентным увеличением скорости.
 
 Посмотреть живую версию этого архива здесь  
--> https://codehack3r.github.io/Lords-Mobile-Time-Calculator
+-> https://codehack3r.github.io/Lords-Mobile-Time-Calculator-Russian
 
 Проверьте мою страницу GitHub здесь
 -> https://codehack3r.github.io
