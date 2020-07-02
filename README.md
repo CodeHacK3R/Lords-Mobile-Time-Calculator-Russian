@@ -6,11 +6,11 @@
 Посмотреть живую версию этого архива здесь  
 -> https://codehack3r.github.io/Lords-Mobile-Time-Calculator-Russian
 
-Проверьте мою страницу GitHub здесь
--> https://codehack3r.github.io
+Проверьте мой полный профиль здесь:
+-> https://tanweerashif.com
 
-Посмотреть мой профиль github здесь.
--> https://github.com/codehack3r
+Следуй за мной на GitHub
+-> https://github.com/hacksploiter
 
 Если вы не знаете, как пользоваться этим сайтом, прочитайте внимательно здесь.
 --
